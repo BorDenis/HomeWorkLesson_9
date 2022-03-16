@@ -18,12 +18,7 @@ public class TestClass_1 {
 
     @DataProvider(name = "data")
     public Object[][] testData(){
-        return new Object[][]{
-                {1,2},
-                {null, null},
-                {"three", "four"},
-                {true, false}
-        };
+        return new TestData().testData;
     }
 
     @BeforeSuite
