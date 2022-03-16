@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Домашка по анотациям">
+    <test name="Первый блок">
+        <classes>
+            <class name="tests.TestClass_1"/>
+            <class name="tests.TestClass_2"/>
+            <class name="tests.TestClass_3"/>
+        </classes>
+    </test>
+    <test name="Второй блок">
+        <classes>
+            <class name="tests.TestClass_4"/>
+        </classes>
+    </test>
+</suite>
